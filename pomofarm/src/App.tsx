@@ -1,8 +1,8 @@
-import Clock from "./components/clock";
+import Pomodoro from "./components/pomodoro";
 
 function App() {
   return(
-    <Clock></Clock>
+    <Pomodoro></Pomodoro>
   );
 }
 
