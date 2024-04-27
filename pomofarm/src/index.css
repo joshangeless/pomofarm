@@ -13,9 +13,31 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-
   display: flex;
   justify-content: center;
   align-items: center;
   height:100vh; 
+
 }
+
+.pomodoro {
+  position: relative;
+}
+
+
+.popup {
+  position: absolute;
+  bottom: calc(100% + 10px);
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 30px;
+}
+
+
+.button-container {
+  margin-top: 20px; 
+}
+
+
+
+
